@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Aria Blaze",
+    "category": "Singer",
+    "location": "Mumbai",
+    "price": "₹15,000 - ₹25,000",
+    "image": "/singer1.avif"
+  },
+  {
+    "id": 2,
+    "name": "Dance Vibes",
+    "category": "Dancer",
+    "location": "Delhi",
+    "price": "₹30,000 - ₹50,000",
+    "image": "/dancer1.avif"
+  },
+  {
+    "id": 3,
+    "name": "DJ Sonic",
+    "category": "DJ",
+    "location": "Bangalore",
+    "price": "₹8,000 - ₹12,000",
+    "image": "/dj1.avif"
+  },
+  {
+    "id": 4,
+    "name": "Inspire Talks",
+    "category": "Speaker",
+    "location": "Kolkata",
+    "price": "₹20,000 - ₹35,000",
+    "image": "/speaker1.avif"
+  },
+  {
+    "id": 5,
+    "name": "Melody Beats",
+    "category": "Singer",
+    "location": "Delhi",
+    "price": "₹10,000 - ₹18,000",
+    "image": "/singer2.avif"
+  },
+  {
+    "id": 6,
+    "name": "Fusion Crew",
+    "category": "Dancer",
+    "location": "Mumbai",
+    "price": "₹22,000 - ₹40,000",
+    "image": "/dancer2.avif"
+  },
+  {
+    "id": 7,
+    "name": "DJ Echo",
+    "category": "DJ",
+    "location": "Hyderabad",
+    "price": "₹12,000 - ₹20,000",
+    "image": "/dj2.avif"
+  },
+  {
+    "id": 8,
+    "name": "MindSpark Talks",
+    "category": "Speaker",
+    "location": "Bangalore",
+    "price": "₹18,000 - ₹28,000",
+    "image": "/speaker2.avif"
+  }
+]
