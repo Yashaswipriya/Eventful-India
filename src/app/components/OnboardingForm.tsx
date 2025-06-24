@@ -59,21 +59,21 @@ export default function OnboardingForm() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
-      {/* Name */}
+      {/*name*/}
       <div className="space-y-2">
         <Label htmlFor="name">Name</Label>
         <Input id="name" {...register("name")} />
         {errors.name && <p className="text-red-500 text-sm">{errors.name.message}</p>}
       </div>
 
-      {/* Bio */}
+      {/*bio*/}
       <div className="space-y-2">
         <Label htmlFor="bio">Bio</Label>
         <Textarea id="bio" {...register("bio")} />
         {errors.bio && <p className="text-red-500 text-sm">{errors.bio.message}</p>}
       </div>
 
-      {/* Category */}
+      {/*category*/}
       <div className="space-y-2">
         <Label>Category</Label>
         <MultiSelectCheckbox
@@ -85,7 +85,7 @@ export default function OnboardingForm() {
         {errors.categories && <p className="text-red-500 text-sm">{errors.categories.message}</p>}
       </div>
 
-      {/* Languages */}
+      {/*languages*/}
       <div className="space-y-2">
         <Label>Languages Spoken</Label>
         <MultiSelectCheckbox
@@ -97,7 +97,7 @@ export default function OnboardingForm() {
         {errors.languages && <p className="text-red-500 text-sm">{errors.languages.message}</p>}
       </div>
 
-      {/* Fee Range */}
+      {/*fee*/}
       <div className="space-y-2">
         <Label>Fee Range</Label>
         <Select onValueChange={(val) => setValue("feeRange", val)}>
@@ -113,14 +113,14 @@ export default function OnboardingForm() {
         {errors.feeRange && <p className="text-red-500 text-sm">{errors.feeRange.message}</p>}
       </div>
 
-      {/* Location */}
+      {/*location*/}
       <div className="space-y-2">
         <Label htmlFor="location">Location</Label>
         <Input id="location" {...register("location")} />
         {errors.location && <p className="text-red-500 text-sm">{errors.location.message}</p>}
       </div>
 
-      {/* Image Upload */}
+      {/*image upload*/}
       <div className="space-y-2">
         <Label htmlFor="image">Profile Image (optional)</Label>
         <Input id="image" type="file" {...register("image")} />
