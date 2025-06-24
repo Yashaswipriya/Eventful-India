@@ -19,6 +19,7 @@ export default function ArtistsPage() {
   const [selectedLocation, setSelectedLocation] = useState<string[]>([]);
   const [selectedPrice, setSelectedPrice] = useState<string>('All');
 
+  //converts price range string to numeric min/max values
   const parsePrice = (priceStr: string) => {
     const [minStr, maxStr] = priceStr.replace(/[₹,]/g, '').split(' - ');
     return {
@@ -27,6 +28,7 @@ export default function ArtistsPage() {
     };
   };
 
+  //returns artists that match all the selcted filters
   const filteredArtists = (artistsData as Artist[]).filter((artist) => {
     const { min, max } = parsePrice(artist.price);
 
