@@ -16,7 +16,7 @@ export default function Header() {
         Artistly
       </Link>
 
-      {/* Desktop Navigation */}
+      {/*desktop version*/}
       <nav className="flex items-center space-x-10 hidden md:flex">
         <Link
           href="/artists"
@@ -51,7 +51,7 @@ export default function Header() {
         <ThemeToggle />
       </nav>
 
-      {/* Mobile Navigation */}
+      {/*mobile version*/}
       <div className="md:hidden flex items-center space-x-2">
         <ThemeToggle />
         <Sheet>
