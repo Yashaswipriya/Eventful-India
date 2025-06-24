@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎨 Artistly – Talent Booking Platform
 
-## Getting Started
+Artistly is a modern, responsive web application that helps event planners discover and book performing artists like singers, dancers, DJs, and speakers. It features a clean UI, powerful filtering, and an artist onboarding flow — all built with Next.js App Router and Tailwind CSS.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[👉 View Live on Vercel](https://eventful-india.vercel.app/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Features
 
-## Learn More
+### ✅ Core Pages
+- **Home Page**: Overview of the platform, hero section, category cards
+- **Artists Listing**: Grid layout with responsive filters (category, location, price)
+- **Artist Onboarding**: Multi-section form with validation, file upload, and dropdowns
+- **Manager Dashboard**: Table view of artist submissions with dynamic data
 
-To learn more about Next.js, take a look at the following resources:
+### 🎯 Functional Highlights
+- Multi-select filters with checkboxes
+- Framer Motion card animations
+- Dark/Light theme toggle with `next-themes`
+- Lazy-loaded routes with suspense loaders
+- Form validation using React Hook Form + Zod
+- Fully responsive layout (mobile-first)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Tech Stack
 
-## Deploy on Vercel
+- **Framework**: [Next.js 14+ (App & Pages Router)](https://nextjs.org)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com), [ShadCN UI](https://ui.shadcn.com)
+- **Form & Validation**: [React Hook Form](https://react-hook-form.com), [Zod](https://zod.dev)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Theme Handling**: [next-themes](https://github.com/pacocoursey/next-themes)
+- **Deployment**: [Vercel](https://vercel.com)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
+## 🧪 Features Used for Evaluation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Area             | Implemented ✅ |
+|------------------|----------------|
+| Neat Code Structure & Reuse      | ✅ |
+| Fully Responsive UI              | ✅ |
+| Controlled Forms + Validation    | ✅ |
+| Filter Logic                     | ✅ |
+| Deployment (Vercel)              | ✅ |
+| SEO Tags, Alt Text               | ✅ |
+| Inline Comments for Logic        | ✅ |
+| `useState`, `useEffect`, `useContext` | ✅ |
+| `getServerSideProps` (dashboard) | ✅ |
+| Lazy Loading & Suspense          | ✅ |
+| Theme Support                    | ✅ |
+| Framer Motion                    | ✅ |
+
