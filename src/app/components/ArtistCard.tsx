@@ -1,4 +1,3 @@
-//displays how each card on the artists page should look
 'use client';
 
 import { motion } from 'framer-motion';
